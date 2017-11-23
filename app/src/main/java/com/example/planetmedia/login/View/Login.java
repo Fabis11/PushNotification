@@ -24,6 +24,8 @@ public class Login extends AppCompatActivity implements LoginView{
         pass=(EditText) findViewById(R.id.edPassword);
         progressBar=(ProgressBar)findViewById(R.id.progressBar2);
         presenter=new LoginPresentersImpl(this);
+
+        //holoaedser
     }
 
     @Override
