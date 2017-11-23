@@ -48,4 +48,5 @@ public class MiFireBaseMessagingService extends FirebaseMessagingService {
         NotificationManager notificationManager= (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(0,notificacionBuilder.build());
     }
+    //comentario prueba
 }
